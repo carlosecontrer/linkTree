@@ -2,7 +2,7 @@ body {
   width: 100wh;
   height: 90vh;
   color: #fff;
-  background: linear-gradient(-45deg, #529bee, #3c72e7, #23A6D5, #3523d5);
+  background: linear-gradient(-45deg, #529bee, #3c72e7, #23a6d5, #3523d5);
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
 }
@@ -67,10 +67,10 @@ h6 {
   }
 }
 .linktree {
-  width: 120px;
-  height: 120px;
+  width: 250px;
+  height: 60px;
   background-image: url("./images/ctdLogo-03.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
